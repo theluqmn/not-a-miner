@@ -15,7 +15,7 @@ For the sake of why not, you purchase mining equipment and energy generators. Yo
 ## To-do
 
 - **v1.0**
-- [ ] integrate [coingecko pricing API](https://www.coingecko.com/en/api) for DOGE pricing
+- [x] integrate [coingecko pricing API](https://www.coingecko.com/en/api) for DOGE pricing
 - [ ] mining mechanics (includes energy consumption)
 - [ ] local storage management
 - [ ] switch UIs
