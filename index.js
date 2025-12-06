@@ -1,7 +1,11 @@
+let saveData = {
+    "gpu": [
+        {"hashrate":1000,"power_consumption":120}
+    ]
+}
 let dogecoins = parseFloat(localStorage.getItem('dogecoins')) || 0;
 let exchange_rate = 0;
 let difficulty = 5000;
-let saveData = { 'gpu': [{'hashrate':1000,'power_consumption':120}] }
 
 // mining mechanic
 function miner() {
@@ -23,7 +27,7 @@ function miner() {
 
 const miningInterval = setInterval(() => { miner(); }, 1000)
 
-// exchange mechanic
+// get exchange rate
 async function fetch_rate() {
     try {
         const res = await fetch('https://api.coingecko.com/api/v3/simple/price?vs_currencies=usd&ids=dogecoin&precision=8');

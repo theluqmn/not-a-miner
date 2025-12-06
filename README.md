@@ -21,6 +21,7 @@ For the sake of why not, you purchase mining equipment and energy generators. Yo
 - [x] integrate [coingecko pricing API](https://www.coingecko.com/en/api) for DOGE pricing
 - [x] mining mechanics (includes energy consumption)
 - [x] local storage management
+- [ ] game data management
 - [ ] switch UIs
 - [ ] shop mechanics
 - [ ] fancy UI pages
@@ -39,6 +40,6 @@ Not a Miner is considered complete by **v1.2** - no further updates are planned.
 
 This project is one of my submissions for Hack Club's [Milkyway](https://milkyway.hackclub.com) program!
 
-I started this project to regain coding momentum. The features and scope of the project is deliberately made limited to avoid overcomplexity as its my first simulator game in a while. If I managed to finish this by the weekend, there will be a sequel featuring major gameplay with the same underlying mechanics. Stay tuned.
+I started this project to regain coding momentum. The features and scope of the project is deliberately made limited to avoid overcomplexity as its my first simulator game in a while. If I managed to finish this by the week, there will be a sequel featuring major gameplay with the same underlying mechanics. Stay tuned.
 
 This project is licensed under the MIT License.

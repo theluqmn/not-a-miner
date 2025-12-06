@@ -1,0 +1,6 @@
+{
+    "gpu":{
+        "geforce-rtx5090":{ "brand":"NVIDIA","name":"GeForce RTX 5090","tflops":0,"tdp":600,"price":1500 },
+        "geforce-rtx3090":{ "brand":"NVIDIA","name":"GeForce RTX 3090","tflops":0,"tdp":500,"price":1200 }
+    }
+}
